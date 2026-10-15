@@ -10,7 +10,7 @@ Open `index.html` in a modern browser. No build or dependencies are required.
 
 The app opens to **Sunday roster** with two cards: **NextStep Team** and **Salvation Team**. The month planner shows every Sunday in the selected month—four or five, depending on the calendar. Select a Sunday to edit that week's rosters and use the clearly labeled **Team leaders for [Sunday]** section below the planner to add or remove leaders for that date. The overall team coaches list is managed separately below it. Each team has five places, and each person can be rostered on one team per Sunday. Rosters and Sunday leader names are stored separately by date in browser local storage.
 
-Use **Event rosters → Add event** to create a separate event and date. Each event has independent **NextStep Team**, **Salvation Team**, and **Team leaders** lists, with no five-person limit. Add people from the shared directory; an individual can only be assigned to one group per event, but can serve in multiple events. Removing an event does not change Sunday rosters.
+Use **Event rosters → Add event** to create a separate event and date. Each event has 15 open places in each group: **NextStep Team**, **Salvation Team**, and **Team leaders**. Add people from the shared directory; an individual can only be assigned to one group per event, but can serve in multiple events. Removing an event does not change Sunday rosters.
 
 Use **All team members → Import people** to paste CSV rows in `name,email,role` format (email and role are optional), or add individual existing team members. Everyone appears in one shared team-member list. Add a team member once, then select them from either roster dropdown for each Sunday they serve.
 
