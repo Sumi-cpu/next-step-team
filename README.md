@@ -20,6 +20,10 @@ For each rostered person, select **Send request** to share a message through the
 
 Use **Salvation care** to record a salvation decision and its follow-up status: New, Contacted, Connected, or Ongoing. Keep conversations confidential.
 
+## Team leader report
+
+Open **Team leader report** to review the selected Sunday’s leaders and NextStep / Salvation rosters, record each rostered person’s attendance, and add team updates, feedback from the team, and needs or prayer requests. The report saves automatically in this browser for the selected Sunday. Use **Print / Save PDF** to print a copy or save it as a PDF to share.
+
 ## Data
 
-People, salvation follow-ups, Sunday rosters, event rosters, Sunday leader names, team coaches, and roster replies are stored in the current browser profile only. Requests are shared through your messaging app; replies are recorded by the team leader. There is no server or cross-device sync in this first pass. Use a shared backend before relying on multiple coordinators or devices.
+People, salvation follow-ups, Sunday rosters, event rosters, Sunday leader names, team coaches, leader reports, attendance, and roster replies are stored in the current browser profile only. Requests are shared through your messaging app; replies are recorded by the team leader. There is no server or cross-device sync in this first pass. Use a shared backend before relying on multiple coordinators or devices.
