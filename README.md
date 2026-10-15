@@ -22,7 +22,7 @@ Use **Salvation care** to record a salvation decision and its follow-up status: 
 
 ## Team leader report
 
-Open **Team leader report** to review the selected Sunday’s leaders and NextStep / Salvation rosters, record each rostered person’s attendance, and add team updates, feedback from the team, and needs or prayer requests. The report saves automatically in this browser for the selected Sunday. Use **Print / Save PDF** to print a copy or save it as a PDF to share.
+Open **Team leader report** to review the selected Sunday’s leaders and NextStep / Salvation rosters, record each rostered person’s attendance, and add team updates, feedback from the team, and needs or prayer requests. The report saves automatically in this browser for the selected Sunday. Use **Google Docs report** to open a new Google Doc and copy the report text, then paste it into the Doc and use Google Docs’ **Share** button to send it to leaders. This creates a snapshot; later app edits do not update the Doc automatically. Use **Print / Save PDF** to print a copy or save it as a PDF to share.
 
 ## Data
 
