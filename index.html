@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f7f2">
+  <meta name="description" content="Roster the NextStep Team and Salvation Team every Sunday at Christian City Church.">
+  <title>Next Step — Christian City Church</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <a class="brand" href="#"><span class="brand-icon">✳</span><span>next<span class="green">step</span></span></a>
+      <div class="church"><span class="church-icon">C</span><span><b>Christian City Church</b><small>Church workspace</small></span><span class="chevron">⌄</span></div>
+      <p class="nav-heading">WORKSPACE</p>
+      <nav aria-label="Main navigation">
+        <button class="nav-item active" data-page="teams"><span>▦</span> Sunday roster <i id="team-count"></i></button>
+        <button class="nav-item" data-page="overview"><span>⌂</span> Overview</button>
+        <button class="nav-item" data-page="people"><span>♡</span> Salvation care <i class="warm" id="care-count"></i></button>
+        <button class="nav-item" data-page="volunteers"><span>♧</span> All team members</button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="verse"><span>✳</span><p>“Let us not grow weary of doing good...”</p><small>GALATIANS 6:9</small></div>
+        <div class="user"><span class="user-avatar">TL</span><span><b>Team leader</b><small>NextStep Team</small></span><span class="dots">···</span></div>
+      </div>
+    </aside>
+    <main class="main">
+      <header class="topbar"><div class="crumb">Christian City Church <span>/</span> <b id="current-page">Sunday roster</b></div><div class="top-actions"><span class="saved"><i></i> All changes saved</span><button class="help" aria-label="Help">?</button><span class="user-avatar">TL</span></div></header>
+      <div id="app" class="content"></div>
+    </main>
+  </div>
+  <div id="modal"></div>
+  <div id="toast" aria-live="polite"></div>
+</body>
+</html>
